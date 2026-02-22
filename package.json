@@ -1,7 +1,7 @@
 {
-  "name": "cy-pageobjects",
+  "name": "cy-bdd-cucumber",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exemplo de Behavior Driven Development",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run"
@@ -9,6 +9,10 @@
   "author": "Guilherme Cordeiro da Mata",
   "license": "ISC",
   "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
     "cypress": "^15.10.0"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^7.0.2"
   }
 }
