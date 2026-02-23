@@ -1,8 +1,7 @@
-/// <reference types="cypress"/>
+/// <reference types="cypress" />
 
-export const HomePage = {
+export const homePage = {
     openMenu(menu){
-        const profire = `[href="/Tab/${menu}"]`
-        return cy.get(profire).click()
+        return cy.get(`[href="/Tab/${menu}"]`).click()
     }
 }

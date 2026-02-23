@@ -1,8 +1,8 @@
-/// <reference types="cypress"/>
+/// <reference types="cypress" />
 
 class LoginPage {
-    get #email () { return cy.get('[data-testid="email"]')}
-    get #password () { return cy.get('[data-testid="password"]')}
+    get #email() { return cy.get('[data-testid="email"]')}
+    get #password() { return cy.get('[data-testid="password"]')}
     get #btnLogin() { return cy.get('[data-testid="btnLogin"]')}
 
     login(email, password){
@@ -11,4 +11,5 @@ class LoginPage {
         this.#btnLogin.click()
     }
 }
-module.exports = new LoginPage()
+
+module.exports = new LoginPage();

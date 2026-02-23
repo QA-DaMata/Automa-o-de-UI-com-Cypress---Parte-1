@@ -1,5 +1,5 @@
 {
-  "name": "cy-pageobjects",
+  "name": "cy-tips",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "Guilherme Cordeiro da Mata",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^15.10.0"
+    "cypress": "^15.10.0",
+    "puppeteer": "^24.37.5"
   }
 }
